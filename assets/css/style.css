@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-color);
+    background-color: var(--light1-color);
+}
+
+:root {
+    --primary-color: #020054;
+    --primaryLight-color:  #0000BB;
+    --secondary-color: #6949A4;
+    --secondaryLight-color: #A9A2FF;
+    --tertiary-color: #9A62A4;
+    --light1-color: #f4f7fb;
+    --light2-color: #F9FCFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h6 {
+    color: var(--secondaryLight-color);
+    margin-top: -1rem;
+}
+
+.about.span {
+    color: var(--primary-color);
+}
+
+p {
+    font-weight: 300;
+}
+
+/* Estilos del Nav */
+.navbar-brand img {
+    height: 2.5rem;
+}
+
+header {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+}
+
+
+
+/* Estilos Sección About */
+
+.about .row {
+    height: 80vh;
+}
+
+.aboutImg {
+    z-index: 0;
+    right: 0;
+    height: 90%;
+    background-image: url(../img/dev.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
