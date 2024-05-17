@@ -12,9 +12,8 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container contenedor-nav seccion">
+    <header class="seccion">
+        <div class="container contenedor-nav">
             <nav class="navbar navbar-expand-lg pt-1 m-0">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="./assets/img/az-logo.svg" alt=""></a>
@@ -28,13 +27,10 @@
                                 <a class="nav-link" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#">Proyectos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Contacto</a>
+                                <a class="nav-link" href="#">Contacto</a>
                                 <span></span>
                             </li>
                         </ul>
@@ -44,11 +40,11 @@
         </div>
     </header>
     <main>
-        <section class="about seccion">
+        <section class="about seccion d-flex align-items-center">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-sm-6">
-                        <div class="m-auto">
+                        <div class="">
                             <h1 class="p-0 m-0">Daniela Zamora.</h1>
                             <h6 class="pb-3 m-0"><span>{</span> Front-End Developer <span>}</span></h6>
                             <p>Diseñadora gráfica y desarrolladora web especializada en UX/UI. <br> Combino mi conocimiento en diseño y desarrollo para construir productos digitales que no solo sean visualmente atractivos, sino también funcionales y centrados en el usuario.</p>
@@ -59,11 +55,11 @@
             </div>
         </section>
 
-        <section class="carrera seccion">
+        <section class="carrera seccion d-flex align-items-center">
             <div class="container">
-                <div class="row py-5">
+                <div class="row">
                     <div class="col-12 col-sm-6 linea">
-                        <div class="py-5 pe-4" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="py-5 pe-0 pe-sm-4" data-aos="fade-up" data-aos-duration="1000">
                             <h2>Desarrollo <br> lo que necesites</h2>
                             <p class="">Creación y mantenimiento de sitios web y aplicaciones para ofrecer experiencias interactivas en línea mediante lenguajes como HTML, CSS y JavaScript.</p>
                             <a class="" href="">
@@ -73,8 +69,8 @@
                             </a>
                         </div>  
                     </div>
-                    <div class="col-12 col-sm-6 ps-5">
-                        <div class="py-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="py-5 col-12 col-sm-6 ps=0 ps-sm-5">
+                        <div class="" data-aos="fade-up" data-aos-duration="1000">
                             <h2>Diseño <br> experiencias memorables</h2>
                             <p class="">Diseño de productos digitales centrado en las necesidades del usuario, asegurando interacciones intuitivas y satisfactorias para mejorar la usabilidad y la percepción del producto.</p>
                             <a class="" href="">
@@ -87,7 +83,40 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="seccion d-flex align-items-center py-5">
+        <div class="container d-flex flex-wrap flex-sm-nowrap justify-content-between">
+            <div>
+                <img src="./assets/img/dz-logo.svg" alt="">
+                <p class="mt-3 col-10">Este sitio ha sido diseñado y construido por Daniela Zamora</p>
+            </div>
+            <div class="contacto">
+                <ul class="">Hablemos
+                    <li class="mt-2">
+                        <i class="fa-solid fa-at"></i>
+                        <a href="">d.zamoralop@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="">Linkedin</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github"></i>
+                        <a href="">Github</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mapaSitio">
+                <ul class="mt-4 mt-sm-0">Links
+                    <li class="mt-2">
+                        <a href="">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="">Cónoceme</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <!--  Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -101,6 +130,7 @@
     <script src="https://kit.fontawesome.com/643c1c6cfd.js" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
         AOS.init();
     </script>

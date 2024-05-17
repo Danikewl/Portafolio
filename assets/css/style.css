@@ -87,7 +87,7 @@ header {
 
 /* Estilos Sección About */
 
-.about .row {
+.about {
     height: 100vh;
 }
 
@@ -110,8 +110,7 @@ header {
 /* Seccion Carrera */
 .carrera {
     background-color: var(--light3-color);
-    margin-top: 3rem;
-    padding: 4rem 0 4rem 0 ;
+    min-height: 100vh;
 }
 
 .linea {
@@ -126,4 +125,45 @@ header {
 
 .carrera p {
     margin-bottom: 2rem;
+}
+
+/* Estilos footer */
+
+footer {
+    background-color: #020054;
+    min-height: 60vh;
+}
+
+footer img {
+    height: 3rem;
+}
+
+footer a, li, ul {
+    color: var(--light2-color);
+    font-weight: 400;
+}
+
+footer ul {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+footer li {
+    font-size: 1rem;
+}
+
+footer i {
+    color: var(--secondaryLight-color);
+    padding-right: 0.5rem;
+}
+
+footer p {
+    color: var(--light2-color);
+}
+
+
+li {
+    list-style-type: none;
 }
