@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+.altura-seccion {
+    height: 70vh;
+}
+
 :root {
     --primary-color: #020054;
     --primaryLight-color:  #0000BB;
@@ -166,4 +170,52 @@ footer p {
 
 li {
     list-style-type: none;
+}
+
+/* ESTILOS DEL PROYECTO UX DESTILADERO */
+
+#presentacion-proyecto h1 {
+    font-size: 3rem;
+}
+
+#presentacion-proyecto p {
+    margin-top: 1rem;
+}
+
+.destacado {
+    color: #6949A4;
+}
+
+.proyectoImg {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    height: 90%;
+    background-image: url(../img/mockupdm.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.rol-img {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    height: 50%;
+    background-image: url(../img/tuercas.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#rol {
+    background-color: var(--light3-color);
+}
+
+.iconos-rol p {
+    font-size: 0.8rem;
+}
+
+#proyecto-tiempo {
+    background-color: var(--light3-color);
 }
